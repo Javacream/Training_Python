@@ -17,7 +17,7 @@ class Access_Data:
     pass
 
 class User_Data_Processor:
-    def __init__(self, file_path='Python_Workshop/week7/username.csv'):
+    def __init__(self, file_path='username.csv'):
         self.file_path = file_path
         self.users = []
         self.ids = set()
