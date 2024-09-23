@@ -6,3 +6,5 @@ class Store:
         pass
     def add_item(self):
         pass
+    def print_item(self, name, object):
+        print(name, object)
