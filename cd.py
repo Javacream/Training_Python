@@ -52,6 +52,8 @@ class TestCDManagement:
     def test_search_cd_not_exists(self, management):
         result = management.search_new_cd(999)
         assert result == "Keine CD mit der ID 999 gefunden."
+
+    # testen mit dem Befehl: pytest cd.py
         
 def main():
     management = CDManagement()
