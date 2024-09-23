@@ -6,3 +6,5 @@ class Store:
         pass
     def add_item(self):
         pass
+    def find_item(self, id):
+        print('searching')
